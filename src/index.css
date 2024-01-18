@@ -87,10 +87,37 @@ p, h1 {
   padding: 0 2.5rem;
 }
 
-.about-container h2 {
+.about-container h2, .skills-container h2  {
   padding-top: 3rem;
   color: var(--bgColorPurple);
+  font-size: 2.5rem;
 }
+
+.skills-container {
+  display: grid;
+  background-color: var(--bgColor-dark);
+  width: 100vw;
+  height: 50rem;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 2rem;
+  row-gap: 2rem;
+
+}
+
+.skills-container h2 {
+  grid-column: 1 / -1;
+  padding-bottom: 3rem;
+}
+
+.skills-container img {
+  width: 100px;
+}
+
+.node-logo {
+  grid-column: 1 / -1;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -109,6 +136,12 @@ p, h1 {
   
   .particles-container p {
     font-size: 2.2rem;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+    height: 45rem;
+
   }
 }
 
