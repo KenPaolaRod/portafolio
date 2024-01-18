@@ -44,3 +44,10 @@ nav li {
 nav a {
   color: var(--colorPurple);
 }
+
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 65%;
+  }
+}

@@ -22,7 +22,7 @@ const ParticleComponent = () => {
   const options = useMemo(
     () => ({
       "fullScreen": {
-        "enable": true,
+        "enable": false,
         "zIndex": -1
     },
     "particles": {

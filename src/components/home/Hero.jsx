@@ -1,4 +1,4 @@
-import ParticleComponent from "./ParticleComponent";
+import ParticleComponent from "../ParticleComponent";
 
 
 function Hero() {
