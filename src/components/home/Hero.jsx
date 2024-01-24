@@ -1,4 +1,6 @@
 import ParticleComponent from "../ParticleComponent";
+import {ReactTyped} from "react-typed";
+
 
 
 function Hero() {
@@ -7,7 +9,7 @@ function Hero() {
       <ParticleComponent />
       <div className="title">
         <h1>Hey! I'm Kenyerling Rodriguez</h1>
-        <p>Front End Web Developer</p>
+        <p><ReactTyped strings={["Front End Web Developer"]} typeSpeed={100} loop /></p>
       </div>
   </div>
   )

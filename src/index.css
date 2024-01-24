@@ -84,7 +84,7 @@ p, h1 {
 }
 
  .about-container p {
-  text-align: center;
+  line-height: 2rem;
   padding: 0 2.5rem;
 }
 
@@ -98,7 +98,7 @@ p, h1 {
   display: grid;
   background-color: var(--bgColor-dark);
   width: 100vw;
-  height: 50rem;
+  height: 62rem;
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
