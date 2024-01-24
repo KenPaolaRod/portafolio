@@ -18,7 +18,7 @@ header {
   background: rgba(255, 255, 255, 0.027);
   -webkit-backdrop-filter: blur(8.5px);
           backdrop-filter: blur(8.5px);
-  margin: 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 nav {
@@ -26,6 +26,7 @@ nav {
   grid-template-columns: 1fr -webkit-min-content;
   grid-template-columns: 1fr min-content;
   align-items: center;
+  padding: .5rem;
 }
 
 nav ul  {
