@@ -74,7 +74,6 @@ p, h1 {
 .about-container {
   background-color: var(--bgColor-dark);
   width: 100vw;
-  height: 40rem;
   display: grid;
   justify-items: center;
 }
@@ -98,7 +97,7 @@ p, h1 {
   display: grid;
   background-color: var(--bgColor-dark);
   width: 100vw;
-  height: 62rem;
+  /* height: 82rem; */
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
@@ -119,6 +118,31 @@ p, h1 {
   grid-column: 1 / -1;
 }
 
+.project-container {
+  background-color: var(--bgColor-dark);
+  display: grid;
+  justify-items: center;
+  padding-top: 6rem;
+}
+
+.project-container img {
+  width: 330px;
+}
+
+.project-container h2 {
+  color: var(--color-light);
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  text-decoration: none;
+}
+
+.project-container h1 {
+  color: var(--colorPurple);
+  grid-column: 1 / -1;
+  padding-bottom: 4rem;
+  font-size: 2.5rem;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -146,6 +170,13 @@ p, h1 {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .project-container img {
+    width: 370px;
+  }
+
+}
+
 @media screen and (min-width: 1024px) {
   .about-container {
     grid-template-columns: repeat(2, 1fr);
@@ -160,4 +191,8 @@ p, h1 {
   .about-container p {
     padding: 0 4rem;
   }
+
+.project-container {
+  grid-template-columns: repeat(2, 1fr);
+}
 }
