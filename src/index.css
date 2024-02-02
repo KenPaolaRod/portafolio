@@ -87,7 +87,7 @@ p, h1 {
   padding: 0 2.5rem;
 }
 
-.about-container h2, .skills-container h2  {
+.about-container h2, .skills-container h2, .contact-container h2  {
   padding-top: 3rem;
   color: var(--bgColorPurple);
   font-size: 2.5rem;
@@ -142,6 +142,33 @@ p, h1 {
   grid-column: 1 / -1;
   padding-bottom: 4rem;
   font-size: 2.5rem;
+}
+
+.contact-container {
+  background-color: var(--bgColor-dark);
+  display: grid;
+  justify-items: center;
+  row-gap: 1rem;
+}
+
+.contact-container h2 {
+  padding-bottom: 2rem;
+}
+
+.contact-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.8rem;
+  list-style-type: none;
+}
+
+.contact-icon {
+  color: var(--colorPurple);
+
+}
+
+.contact-container a {
+  color: var(--color-light);
 }
 
 
