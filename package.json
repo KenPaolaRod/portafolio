@@ -13,7 +13,9 @@
     "file-saver": "^2.0.5",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
-    "react-typed": "^2.0.9"
+    "react-tsparticles": "^2.12.2",
+    "react-typed": "^2.0.9",
+    "tsparticles": "^3.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

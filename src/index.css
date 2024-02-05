@@ -1,7 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
 }
 
 :root {
@@ -26,7 +30,9 @@ nav {
   grid-template-columns: 1fr -webkit-min-content;
   grid-template-columns: 1fr min-content;
   align-items: center;
-  padding: .5rem;
+  padding: .7rem;
+  background-color: transparent;
+  border: none;
 }
 
 nav ul  {
