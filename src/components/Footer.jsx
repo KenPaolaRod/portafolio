@@ -10,7 +10,7 @@ function Footer() {
   
   return (
    <footer>
-    <img src="../../public/img/logo.png" alt="logo"/>
+    <img src="img/logo.png" alt="logo"/>
     <ul>
       <li><a href="https://github.com/KenPaolaRod?tab=repositories" target="blanck_"> <FaGithubSquare /> </a></li>
       <li><a href="https://www.linkedin.com/in/kenyerling-rodriguez/" target="blanck_" ><FaLinkedin /></a></li>
