@@ -210,6 +210,17 @@ button {
   font-size: 1rem;
 }
 
+.hero-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  z-index: -1; /* Place the particles behind other content */
+  z-index: -1;
+}
+
+
 
 @media screen and (min-width: 768px) {
   header {
