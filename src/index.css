@@ -85,7 +85,7 @@ p, h1 {
 }
 
 .about-container img {
-  width: 300px;
+  width: 450px;
 }
 
  .about-container p {
@@ -258,6 +258,7 @@ button {
   .about-container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    row-gap: 6rem;
   }
 
   .about-container h2 {
