@@ -16,7 +16,7 @@ function Footer() {
       <li><a href="https://www.linkedin.com/in/kenyerling-rodriguez/" target="blanck_" ><FaLinkedin /></a></li>
       <li><button onClick={handleDownload}><MdOutlineFilePresent /></button> </li>
     </ul>
-    <p> &#169; Copyright my-portafolio-zkua.onrender.com</p>
+    <p> &#169; Copyright kenpaola.com</p>
    </footer>
   )
 }

@@ -85,12 +85,13 @@ p, h1 {
 }
 
 .about-container img {
-  width: 450px;
+  width: 300px;
 }
 
  .about-container p {
   line-height: 2rem;
   padding: 0 2.5rem;
+  text-align: center;
 }
 
 .about-container h2, .skills-container h2, .contact-container h2  {
@@ -108,6 +109,7 @@ p, h1 {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
   row-gap: 2rem;
+  align-items: center;
 
 }
 
@@ -117,11 +119,17 @@ p, h1 {
 }
 
 .skills-container img {
-  width: 100px;
+  width: 80px;
 }
 
-.node-logo {
-  grid-column: 1 / -1;
+.skills-container h3 {
+  color: var(--color-light);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.skill-info {
+  display: grid;
 }
 
 .project-container {
@@ -242,8 +250,20 @@ button {
 
   .skills-container {
     grid-template-columns: repeat(3, 1fr);
-    height: 45rem;
+    height: 55rem;
 
+  }
+
+  .about-container img {
+    width: 450px;
+  }
+
+  .about-container p {
+    text-align: start;
+  }
+
+  .node-logo {
+    grid-column: 1 / -1;
   }
 }
 
