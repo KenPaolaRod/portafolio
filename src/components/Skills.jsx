@@ -9,7 +9,7 @@ function Skills() {
         <h3>Figma</h3>
       </div>
       <div className='skill-info'>
-        <img src=" img/HTML5_logo.svg.png" alt="HTML Logo" />
+        <img src=" img/html-logo.png" alt="HTML Logo" />
         <h3>HTML5</h3>
       </div>
       <div className='skill-info'>
@@ -23,6 +23,10 @@ function Skills() {
       <div className='skill-info'>
         <img src="img/React-logo.png" alt="HTML Logo" />
         <h3>React</h3>
+      </div>
+      <div className='skill-info'>
+        <img src="img/node-logo.png" alt="Node Logo" />
+        <h3>Node.js</h3>
       </div>
       <div className='skill-info'>
         <img src="img/nosql-logo.png" alt="noSql Logo" />
@@ -40,9 +44,13 @@ function Skills() {
         <img src="img/Wordpress_Blue_logo.png" alt="Wordpress Logo"/>
         <h3>Wordpress</h3>
       </div>
-      <div className='node-logo skill-info'>
-        <img src="img/node-logo.png" alt="Node Logo" />
-        <h3>Node.js</h3>
+      <div className='skill-info'>
+        <img src="img/adobe-illustrator-logo.png" alt="Wordpress Logo"/>
+        <h3>Illustrator</h3>
+      </div>
+      <div className='skill-info'>
+        <img src="img/photoshop.png" alt="Wordpress Logo"/>
+        <h3>Illustrator</h3>
       </div>
     </div>
   )

@@ -137,9 +137,10 @@ p, h1 {
   display: grid;
   justify-items: center;
   padding-top: 6rem;
+  row-gap: 3rem;
 }
 
-.project-container img {
+.project-skills-img {
   width: 330px;
 }
 
@@ -147,8 +148,8 @@ p, h1 {
   color: var(--color-light);
   text-align: center;
   font-size: 1rem;
-  margin-bottom: 3rem;
   text-decoration: none;
+  margin-top: .3rem;
 }
 
 .project-container h1 {
@@ -156,6 +157,15 @@ p, h1 {
   grid-column: 1 / -1;
   padding-bottom: 4rem;
   font-size: 2.5rem;
+}
+
+.project-skills-box {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.project-skills-box img {
+  width: 20px ;
 }
 
 .contact-container {
@@ -265,14 +275,12 @@ button {
   .node-logo {
     grid-column: 1 / -1;
   }
-}
 
-@media screen and (min-width: 768px) {
-  .project-container img {
+  .project-skills-img {
     width: 370px;
   }
-
 }
+
 
 @media screen and (min-width: 1024px) {
   .about-container {
