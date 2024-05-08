@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className='skills-container'>
+    <div className='skills-container' id='skills'>
       <h2>Skills</h2>
       <div className='skill-info'>
         <img src="img/Figma-1-logo.png" alt="Figma Logo" />

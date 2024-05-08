@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <article className='project-container'>
+    <article className='project-container' id='projects'>
       <h1>Projects</h1>
       <div className='project-info'>
         <a href="https://kenpaolarod.github.io/Landing-de-ventas/" target='_blank'>
