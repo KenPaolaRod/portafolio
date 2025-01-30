@@ -5,7 +5,6 @@ function ContactInfo() {
     <article className='contact-container' id="contact">
       <h2>Contact Info</h2>
       <a href="mailto:kenpaorin@gmail.com">Kenpaorin@gmail.com</a>
-      <a href="tel:+13322075494">+1(332)207-5494</a>
       <div>
         <ul className="contact-icons"> 
           <li className="contact-icon"><a href="https://github.com/KenPaolaRod?tab=repositories" target="blanck_"> <FaGithubSquare /> </a></li>
