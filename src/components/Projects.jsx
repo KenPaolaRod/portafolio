@@ -4,6 +4,18 @@ function Projects() {
   return (
     <article className='project-container' id='projects'>
       <h1>Projects</h1>
+
+      <div>
+          <a href="https:saredijewelry.com" target='_blank'>
+            <img src="img/projects/jewelryStore.png" alt="Jewelry Store Eebsite" className='project-skills-img'/>
+          </a>
+          <h2>Jewelry Store </h2>
+          <div className='project-skills-box'>
+            <img src="img/Wordpress_Blue_logo.png" alt="CSS Logo" />
+            <img src="img/WooCommerce-App-Icon-2025.png" alt="CSS Logo" />
+          </div>
+      </div>
+
       <div className='project-info'>
         <a href="https://kenpaolarod.github.io/Landing-de-ventas/" target='_blank'>
           <img src="img/projects/salesLanding.png" alt="Sales Landing" className='project-skills-img' />
