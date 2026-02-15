@@ -201,6 +201,115 @@ p, h1 {
   width: 20px ;
 }
 
+
+
+/* skilss */
+
+.skills-container {
+  padding: 80px 20px;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.skills-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 60px;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+
+.skills-slider {
+  position: relative;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.skills-track {
+  display: flex;
+  gap: 80px;
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% / 3));
+  }
+}
+
+.skills-slider:hover .skills-track {
+  animation-play-state: paused;
+}
+
+.skill-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  min-width: 150px;
+  flex-shrink: 0;
+}
+
+.skill-info img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(0.8);
+  transition: all 0.3s ease;
+}
+
+.skill-info:hover img {
+  filter: grayscale(0%) brightness(1);
+  transform: scale(1.1);
+}
+
+.skill-info h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.skill-info:hover h3 {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 60px 20px;
+  }
+
+  .skills-container h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .skills-track {
+    gap: 60px;
+  }
+
+  .skill-info {
+    min-width: 120px;
+  }
+
+  .skill-info img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-info h3 {
+    font-size: 0.9rem;
+  }
+}
+/* skilss end */
+
+
 .contact-container {
   background-color: var(--bgColor-dark);
   display: grid;
@@ -317,11 +426,19 @@ button {
     font-size: 2.2rem;
   }
 
+
   .skills-container {
     grid-template-columns: repeat(3, 1fr);
     height: 55rem;
 
   }
+
+  /* .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+    height: 55rem;
+
+  } */
+
 
   .about-container img {
     width: 450px;

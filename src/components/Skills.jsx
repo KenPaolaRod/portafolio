@@ -1,59 +1,42 @@
+
 import React from 'react'
 
 function Skills() {
+  const skills = [
+    { img: "img/Figma-1-logo.png", name: "Figma" },
+    { img: "img/html-logo.png", name: "HTML5" },
+    { img: "img/css3-logo-png-transparent.png", name: "CSS3" },
+    { img: "img/javascript-logo.png", name: "Javascript" },
+    { img: "img/React-logo.png", name: "React" },
+    { img: "img/node-logo.png", name: "Node.js" },
+    { img: "img/nosql-logo.png", name: "NoSql" },
+    { img: "img/mongodb-logo.png", name: "MongoDB" },
+    { img: "img/expressJs-logoo.png", name: "Express.js" },
+    { img: "img/Wordpress_Blue_logo.png", name: "Wordpress" },
+    { img: "img/adobe-illustrator-logo.png", name: "Illustrator" },
+    { img: "img/photoshop.png", name: "Photoshop" }
+  ];
+
   return (
     <div className='skills-container' id='skills'>
-      <h2>Skills</h2>
-      <div className='skill-info'>
-        <img src="img/Figma-1-logo.png" alt="Figma Logo" />
-        <h3>Figma</h3>
-      </div>
-      <div className='skill-info'>
-        <img src=" img/html-logo.png" alt="HTML Logo" />
-        <h3>HTML5</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/css3-logo-png-transparent.png" alt="CSS Logo" />
-        <h3>CSS3</h3>
-      </div>
-      <div className='skill-info'> 
-        <img src="img/javascript-logo.png" alt="Javascript Logo" />
-        <h3>Javascript</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/React-logo.png" alt="HTML Logo" />
-        <h3>React</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/node-logo.png" alt="Node Logo" />
-        <h3>Node.js</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/nosql-logo.png" alt="noSql Logo" />
-        <h3>NoSql</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/mongodb-logo.png" alt="MongoDB Logo" />
-        <h3>MongoDB</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/expressJs-logoo.png" alt="expressJs Logo" />
-        <h3>Express.js</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/Wordpress_Blue_logo.png" alt="Wordpress Logo"/>
-        <h3>Wordpress</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/adobe-illustrator-logo.png" alt="Wordpress Logo"/>
-        <h3>Illustrator</h3>
-      </div>
-      <div className='skill-info'>
-        <img src="img/photoshop.png" alt="Wordpress Logo"/>
-        <h3>Illustrator</h3>
+      <h2>MY SKILLS</h2>
+      <div className='skills-slider'>
+        <div className='skills-track'>
+          {/* Triplicamos para garantizar loop perfecto */}
+          {[...Array(3)].map((_, setIndex) => (
+            skills.map((skill, index) => (
+              <div className='skill-info' key={`skill-${setIndex}-${index}`}>
+                <img src={skill.img} alt={`${skill.name} Logo`} />
+                <h3>{skill.name}</h3>
+              </div>
+            ))
+          ))}
+        </div>
       </div>
     </div>
   )
 }
+
+
 
 export default Skills

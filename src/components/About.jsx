@@ -10,7 +10,9 @@ function About() {
 <br/> <br/> In my free time, I enjoy exercising, being outdoors, traveling, keeping up with the latest developments in technology, and experimenting new ways to improve my skills.
 <br/> <br/>If you want to learn more about my experience or collaborate on a project, don't hesitate to reach out.
 </p>
+
       <img src="img/my-pic-1.png" alt="profile picture" />
+      <img src="img/me.png" alt="profile picture" />
     </div>
   )
 }
